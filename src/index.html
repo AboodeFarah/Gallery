@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <!-- colorize the whole body and give them h & w full -->
+  <body class="bg-cyan-100 h-full w-full">
+    <div class="flex justify-center items-center">
+      <!-- white countainer -->
+      <div
+        class="bg-white w-1/2 h-full my-5 rounded-3xl drop-shadow-2xl md:w-full md:mx-3 shadow-2xl"
+      >
+        <div class="w-[90%] md:w-[70%] md:my-52 my-5 mx-auto">
+          <!-- links -->
+          <div
+            class="text-center text-2xl font-sans space-y-5 cursor-pointer md:flex md:justify-end md:space-x-10"
+          >
+            <!-- About -->
+            <div class="group">
+              <a>About</a>
+              <div
+                class="group-hover:border-b mx-28 mt-1 md:mx-2 border-gray-500 hover:scale-200"
+              ></div>
+            </div>
+            <!-- vector -->
+            <div class="group">
+              <a>vector</a>
+              <div
+                class="group-hover:border-b mx-28 mt-1 md:mx-2 border-gray-500 duration-200 hover:scale-200"
+              ></div>
+            </div>
+            <!-- illustration -->
+            <div class="group">
+              <a>illustration</a>
+              <div
+                class="group-hover:border-b mx-28 mt-1 md:mx-2 border-gray-500 duration-200 hover:scale-200"
+              ></div>
+            </div>
+            <!-- images -->
+            <div class="group">
+              <a>images</a>
+              <div
+                class="group-hover:border-b mx-28 mt-1 md:mx-2 border-gray-500 duration-200 hover:scale-200"
+              ></div>
+            </div>
+            <!-- icons -->
+            <div class="group">
+              <a>icons</a>
+              <div
+                class="group-hover:border-b mx-28 mt-1 md:mx-2 border-gray-500 duration-200 hover:scale-200"
+              ></div>
+            </div>
+          </div>
+          <!-- search buttunL -->
+          <div class="md:flex md:justify-between pt-20">
+            <div class="flex justify-center items-center space-x-1.5">
+              <input
+                type="text"
+                placeholder="Search"
+                class="font-light border-b-1 border-gray-300 w-96 text-2xl"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 text-gray-300 duration-200 hover:scale-110"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <circle cx="10" cy="10" r="7"></circle>
+                <line x1="21" y1="21" x2="15" y2="15"></line>
+              </svg>
+            </div>
+
+            <div class="flex justify-center my-5">
+              <button
+                class="bg-black text-white px-20 py-2 rounded-sm md:px-16 md:py-5 md:text-2xl hover:bg-white hover:text-black ring-1 duration-200 hover:scale-100"
+              >
+                upload
+              </button>
+            </div>
+          </div>
+                  <!-- images -->
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+            <!--  image 1 -->
+            <div class="relative h-40 overflow-hidden group rounded-lg">
+              <img src="/Image_Gallery/10001.jpg" 
+                   alt="Abstract Painting" 
+                   class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-3 
+                          opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 
+                          transition-all duration-300">
+                <h3 class="text-lg font-semibold">Abstract Painting</h3>
+                <p class="text-sm">245 likes - 35 Shares</p>
+              </div>
+            </div>
+          
+            <!--  image 2 -->
+            <div class="relative h-40 overflow-hidden group rounded-lg">
+              <img src="/Image_Gallery/10002.jpg" 
+                   alt="Abstract Painting" 
+                   class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-3 
+                          opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 
+                          transition-all duration-300">
+                <h3 class="text-lg font-semibold">Abstract Painting</h3>
+                <p class="text-sm">245 likes - 35 Shares</p>
+              </div>
+            </div>
+          
+            <!--  image 3 -->
+            <div class="relative h-40 overflow-hidden group rounded-lg">
+              <img src="/Image_Gallery/10003.jpg" 
+                   alt="Abstract Painting" 
+                   class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-3 
+                          opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 
+                          transition-all duration-300">
+                <h3 class="text-lg font-semibold">Abstract Painting</h3>
+                <p class="text-sm">245 likes - 35 Shares</p>
+              </div>
+            </div>
+          
+            <!--  image 4 -->
+            <div class="relative h-40 overflow-hidden group rounded-lg">
+              <img src="/Image_Gallery/10004.jpg" 
+                   alt="Abstract Painting" 
+                   class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-3 
+                          opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 
+                          transition-all duration-300">
+                <h3 class="text-lg font-semibold">Abstract Painting</h3>
+                <p class="text-sm">245 likes - 35 Shares</p>
+              </div>
+            </div>
+          
+            <!--  image 5 -->
+            <div class="relative h-40 overflow-hidden group rounded-lg">
+              <img src="/Image_Gallery/10005.jpg" 
+                   alt="Abstract Painting" 
+                   class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-3 
+                          opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 
+                          transition-all duration-300">
+                <h3 class="text-lg font-semibold">Abstract Painting</h3>
+                <p class="text-sm">245 likes - 35 Shares</p>
+              </div>
+            </div>
+          
+            <!--  image 6 -->
+            <div class="relative h-40 overflow-hidden group rounded-lg">
+              <img src="/Image_Gallery/10003.jpg" 
+                   alt="Abstract Painting" 
+                   class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-3 
+                          opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 
+                          transition-all duration-300">
+                <h3 class="text-lg font-semibold">Abstract Painting</h3>
+                <p class="text-sm">245 likes - 35 Shares</p>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

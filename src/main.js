@@ -5,3 +5,9 @@ mybutton.addEventListener("click",function(){
 mybutton.addEventListener("mouseleave",function(){
   this.innerHTML = "upload"
 });
+
+  document.addEventListener("contextmenu", function(event) {
+      event.preventDefault(); // Wuxuu xiraa menu-ga right-click
+      alert("Sorry there's no Right-click!");
+  });
+

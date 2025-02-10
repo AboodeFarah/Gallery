@@ -11,3 +11,10 @@ mybutton.addEventListener("mouseleave",function(){
       alert("Sorry there's no Right-click!");
   });
 
+  let circle = document.getElementById("circle");
+  
+  document.addEventListener("mousemove", function(event) {
+    circle.style.left = event.clientX + "px";
+    circle.style.top = event.clientY + "px";
+  });
+
